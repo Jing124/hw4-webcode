@@ -1,9 +1,10 @@
 body {
-     background-image: url("bg.jpg") ; 
+     background-image: url("bg.jpg");
      background-repeat: no-repeat;
      background-size: cover;
 }
-#welcome-box{
+
+#welcome-box {
      text-align: center;
      color: rgb(95, 252, 252);
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -15,57 +16,74 @@ body {
      border: 1px solid #96f5fc!important;
      border-width: 5px !important;
      text-decoration: none;
-     
 }
-#welcome-box a:visited {
-     color: rgb(95, 252, 252);
-     background-color: transparent;
-   }
-#welcome-box a:hover {
-     color:rgb(0, 243, 223);
-     background-color: transparent;
-   }
 
-.second{
-     background-image: url("bg2.jpg") ; 
+#welcome-box a {
+     color: rgb(95, 252, 252);
+}
+
+#welcome-box a:visited {
+     background-color: transparent;
+}
+
+#welcome-box a:hover {
+     color: rgb(0, 243, 223);
+     background-color: transparent;
+}
+
+.second {
+     background-image: url("bg2.jpg");
      background-repeat: no-repeat;
      background-size: cover;
-     
 }
-#Title{
+
+#Title {
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      font-size: 70px;
-     color:white ;
+     color: white;
      text-align: center;
 }
+
+#Title a {
+     color: white;
+}
+
 #Title a:visited {
      color: white;
      background-color: transparent;
-   }
+}
+
 #Title a:hover {
-     color:rgb(0, 243, 223);
+     color: rgb(0, 243, 223);
      background-color: transparent;
-   }
-#sub{
+}
+
+#sub {
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      font-size: 35px;
      color: white;
      text-align: center;
 }
+
+#sub a {
+     color: white;
+}
+
 #sub a:visited {
      color: white;
      background-color: transparent;
-   }
+}
+
 #sub a:hover {
-     color:rgb(0, 243, 223);
+     color: rgb(0, 243, 223);
      background-color: transparent;
-   }
+}
 
-#html{
-     margin-left: 37%; 
-     margin-right: 30%; 
+#html {
+     margin-left: 37%;
+     margin-right: 30%;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     color:white;
+     color: white;
      text-align: left;
      border: 5px solid white!important;
      border-width: 3px !important;
@@ -74,14 +92,13 @@ body {
      margin-bottom: 1rem;
      padding: 3rem;
      line-height: 1.5;
-   
 }
-#css{
-     
-     margin-left: 37%; 
-     margin-right: 30%; 
+
+#css {
+     margin-left: 37%;
+     margin-right: 30%;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     color:white;
+     color: white;
      text-align: left;
      border: 5px solid white!important;
      border-width: 3px !important;
@@ -90,29 +107,39 @@ body {
      margin-bottom: 1rem;
      padding: 3rem;
      line-height: 1.5;
-
 }
-hr{
+
+hr {
      border-top: 5px solid white;
      width: 300px;
 }
-#bottom{
+
+#bottom {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 20px;
      color: white;
      text-align: center;
      word-spacing: 25px;
 }
+
+#bottom a {
+     color: white;
+}
+
 #bottom a:visited {
      color: white;
      background-color: transparent;
-   }
+}
 
-a:link{
+a:link {
      text-decoration: none;
 }
-#bottom a:hover {
-     color:rgb(0, 243, 223);
-     background-color: transparent;
-   }
 
+#bottom a:hover {
+     color: rgb(0, 243, 223);
+     background-color: transparent;
+}
+
+.placeholder{
+     height: 2.5rem;
+}
