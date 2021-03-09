@@ -1,0 +1,118 @@
+body {
+     background-image: url("bg.jpg") ; 
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+#welcome-box{
+     text-align: center;
+     color: rgb(95, 252, 252);
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 70px;
+     margin-top: 22%;
+     margin-left: 30%;
+     margin-right: 30%;
+     opacity: 90%;
+     border: 1px solid #96f5fc!important;
+     border-width: 5px !important;
+     text-decoration: none;
+     
+}
+#welcome-box a:visited {
+     color: rgb(95, 252, 252);
+     background-color: transparent;
+   }
+#welcome-box a:hover {
+     color:rgb(0, 243, 223);
+     background-color: transparent;
+   }
+
+.second{
+     background-image: url("bg2.jpg") ; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+#Title{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 70px;
+     color:white ;
+     text-align: center;
+}
+#Title a:visited {
+     color: white;
+     background-color: transparent;
+   }
+#Title a:hover {
+     color:rgb(0, 243, 223);
+     background-color: transparent;
+   }
+#sub{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 35px;
+     color: white;
+     text-align: center;
+}
+#sub a:visited {
+     color: white;
+     background-color: transparent;
+   }
+#sub a:hover {
+     color:rgb(0, 243, 223);
+     background-color: transparent;
+   }
+
+#html{
+     margin-left: 37%; 
+     margin-right: 30%; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color:white;
+     text-align: left;
+     border: 5px solid white!important;
+     border-width: 3px !important;
+     width: 300px;
+     margin-top: 0;
+     margin-bottom: 1rem;
+     padding: 3rem;
+     line-height: 1.5;
+   
+}
+#css{
+     
+     margin-left: 37%; 
+     margin-right: 30%; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color:white;
+     text-align: left;
+     border: 5px solid white!important;
+     border-width: 3px !important;
+     width: 300px;
+     margin-top: 0;
+     margin-bottom: 1rem;
+     padding: 3rem;
+     line-height: 1.5;
+
+}
+hr{
+     border-top: 5px solid white;
+     width: 300px;
+}
+#bottom{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+     color: white;
+     text-align: center;
+     word-spacing: 25px;
+}
+#bottom a:visited {
+     color: white;
+     background-color: transparent;
+   }
+
+a:link{
+     text-decoration: none;
+}
+#bottom a:hover {
+     color:rgb(0, 243, 223);
+     background-color: transparent;
+   }
+
